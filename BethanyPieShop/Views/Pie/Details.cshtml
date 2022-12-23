@@ -14,6 +14,12 @@
         <div class="addToCart">
             <p class="button">
 
+                <a class="btn btn-secondary" 
+                            asp-controller="ShoppingCart" 
+                            asp-action ="AddToShoppingCart" 
+                            asp-route-pieId="@Model.PieId">
+                            + Add to cart
+                 </a>
             </p>
         </div>
     </div>
